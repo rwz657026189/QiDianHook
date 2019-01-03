@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/startServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启服务(仅测试)"
+        />
+
+    <Button
+        android:id="@+id/serverSendMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="服务端发送消息"
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="建立连接"
+        />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止连接"
+        />
+
+    <EditText
+        android:id="@+id/ids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1010741811,396449301"
+        android:hint="采用：书籍id,章节id"
+        />
+
+    <Button
+        android:id="@+id/vipContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试VIP章节"
+        />
+
+    <Button
+        android:id="@+id/createSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试解压-三体一"
+        />
+
+    <Button
+        android:id="@+id/downKs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试下载签名"
+        />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        />
+
+
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="start"
+        android:text="日志"/>
+
+</LinearLayout>
